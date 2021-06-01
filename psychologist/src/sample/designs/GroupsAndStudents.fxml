@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="504.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.GroupsAndStudentsController">
+   <children>
+      <TableView fx:id="TableGroups" layoutX="15.0" layoutY="46.0" prefHeight="200.0" prefWidth="571.0">
+        <columns>
+          <TableColumn fx:id="TGName" prefWidth="95.0" text="Группа" />
+          <TableColumn fx:id="TGYear" text="Курс" />
+          <TableColumn fx:id="TGCurator" prefWidth="395.0" text="Куратор" />
+        </columns>
+      </TableView>
+      <TableView fx:id="TableStudents" layoutX="15.0" layoutY="290.0" prefHeight="200.0" prefWidth="571.0">
+        <columns>
+          <TableColumn fx:id="TSName" prefWidth="260.0" text="Студент" />
+          <TableColumn fx:id="TSBirthday" prefWidth="115.0" text="Дата рождения" />
+          <TableColumn fx:id="TSSpecial" prefWidth="95.0" text="Льготник" />
+          <TableColumn fx:id="TSChummery" prefWidth="100.0" text="Общежитие" />
+        </columns>
+      </TableView>
+      <Button fx:id="BAddGroup" layoutX="15.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="571.0" text="Добавить группу" />
+      <Button fx:id="BAddStudent" layoutX="15.0" layoutY="258.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="571.0" text="Добавить студента" />
+   </children>
+</Pane>

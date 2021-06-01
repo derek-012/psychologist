@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:controller="sample.controllers.NewStudentController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="765.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ChoiceBox fx:id="CBGroup" layoutX="14.0" layoutY="18.0" prefHeight="25.0" prefWidth="110.0" />
+      <TextField fx:id="TName" layoutX="140.0" layoutY="18.0" prefHeight="25.0" prefWidth="177.0" promptText="ФИО студента" />
+      <DatePicker fx:id="DPDate" layoutX="327.0" layoutY="18.0" prefHeight="25.0" prefWidth="110.0" />
+      <CheckBox fx:id="CBSpecial" layoutX="448.0" layoutY="22.0" mnemonicParsing="false" text="Льготы" />
+      <CheckBox fx:id="CBChummery" layoutX="526.0" layoutY="22.0" mnemonicParsing="false" text="Общежитие" />
+      <Button fx:id="BSave" layoutX="628.0" layoutY="18.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="125.0" text="Сохранить" />
+   </children>
+</Pane>

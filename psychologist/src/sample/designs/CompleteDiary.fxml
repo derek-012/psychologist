@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="229.0" prefWidth="442.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.CompleteDiaryController">
+   <children>
+      <TextArea fx:id="TNotate" layoutX="15.0" layoutY="14.0" prefHeight="169.0" prefWidth="413.0" promptText="Информация о проведенном сеансе" />
+      <Button fx:id="BSave" layoutX="296.0" layoutY="192.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="132.0" text="Сохранить" />
+   </children>
+</AnchorPane>

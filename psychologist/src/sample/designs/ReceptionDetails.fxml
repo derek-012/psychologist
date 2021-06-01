@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="118.0" prefWidth="445.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.ReceptionDetailsController">
+   <children>
+      <ChoiceBox fx:id="CBGroup" layoutX="10.0" layoutY="27.0" prefHeight="25.0" prefWidth="90.0" />
+      <Button fx:id="BGroup" layoutX="105.0" layoutY="27.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="+" />
+      <ChoiceBox fx:id="CBStudent" disable="true" layoutX="144.0" layoutY="27.0" prefHeight="25.0" prefWidth="256.0" />
+      <Button fx:id="BStudent" disable="true" layoutX="409.0" layoutY="27.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="25.0" text="+" />
+      <DatePicker fx:id="DPDate" layoutX="10.0" layoutY="65.0" prefHeight="25.0" prefWidth="120.0" />
+      <Spinner fx:id="STime" editable="true" layoutX="143.0" layoutY="65.0" prefHeight="25.0" prefWidth="120.0" />
+      <Button fx:id="BSave" layoutX="349.0" layoutY="65.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="85.0" text="Сохранить" />
+   </children>
+</Pane>

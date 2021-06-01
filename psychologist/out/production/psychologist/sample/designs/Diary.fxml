@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="794.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.DiaryController">
+   <children>
+      <TableView fx:id="TableDiary" layoutX="14.0" layoutY="53.0" prefHeight="334.0" prefWidth="454.0">
+        <columns>
+          <TableColumn fx:id="TDStudent" prefWidth="256.0" text="Студент" />
+          <TableColumn fx:id="TDGroup" minWidth="0.0" prefWidth="71.0" text="Группа" />
+          <TableColumn fx:id="TDDate" prefWidth="126.0" text="Дата приема" />
+        </columns>
+      </TableView>
+      <ChoiceBox fx:id="CBGroup" layoutX="14.0" layoutY="14.0" prefHeight="25.0" prefWidth="113.0" />
+      <ChoiceBox fx:id="CBStudent" layoutX="144.0" layoutY="14.0" prefHeight="25.0" prefWidth="324.0" />
+      <Label layoutX="582.0" layoutY="17.0" text="Данные о приеме">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TStudent" layoutX="480.0" layoutY="95.0" prefHeight="25.0" prefWidth="300.0" promptText="Студент" />
+      <TextField fx:id="TGroup" layoutX="480.0" layoutY="53.0" prefHeight="25.0" prefWidth="140.0" promptText="Группа" />
+      <TextField fx:id="TDate" layoutX="640.0" layoutY="53.0" prefHeight="25.0" prefWidth="140.0" promptText="Дата приема" />
+      <TextArea fx:id="TNotate" layoutX="480.0" layoutY="137.0" prefHeight="250.0" prefWidth="300.0" promptText="Данные о приеме" />
+   </children>
+</AnchorPane>

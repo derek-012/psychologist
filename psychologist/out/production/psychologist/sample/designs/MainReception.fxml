@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="330.0" prefWidth="530.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.MainReceptionController">
+   <children>
+      <TableView fx:id="TableReception" layoutX="15.0" layoutY="52.0" prefHeight="264.0" prefWidth="500.0">
+        <columns>
+          <TableColumn fx:id="TVStudent" prefWidth="299.0" text="Студент" />
+          <TableColumn fx:id="TVDate" minWidth="3.0" prefWidth="97.0" text="День" />
+            <TableColumn fx:id="TVTime" prefWidth="103.0" text="Время" />
+        </columns>
+      </TableView>
+      <Button fx:id="BGroupsAndStudents" layoutX="15.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="227.0" text="Работа с группами и студентами" />
+      <Button fx:id="BDiary" layoutX="263.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="252.0" text="Дневники студентов" />
+   </children>
+</Pane>

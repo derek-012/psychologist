@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:controller="sample.controllers.NewGroupController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="63.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextField fx:id="TFName" layoutX="14.0" layoutY="19.0" promptText="Имя группы" />
+      <Spinner fx:id="SYear" min="1" max="5" initialValue="1" editable="true" layoutX="178.0" layoutY="19.0" prefHeight="25.0" prefWidth="100.0" />
+      <TextField fx:id="TFCurator" layoutX="291.0" layoutY="19.0" prefHeight="25.0" prefWidth="206.0" promptText="Куратор группы" />
+      <Button fx:id="BSave" layoutX="510.0" layoutY="19.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="76.0" text="Добавить" />
+   </children>
+</Pane>
